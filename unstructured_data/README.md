@@ -16,7 +16,9 @@ Imagine you own a bakery and your confectioner intelligence team gathers competi
 1. **Clone Repository:**
    ```bash
    git clone https://github.com/ingridstevens/AI-projects.git
-   cd competitor-intelligence
+   cd AI-projects
+   cd unstructured_data
+   ```
 2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
