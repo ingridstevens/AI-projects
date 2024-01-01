@@ -7,7 +7,7 @@ This project demonstrates how to extract structured data from unstructured text,
 
 ## Use Case
 
-![baked_goods](/img/sweets.jpeg)
+![baked_goods](img/sweets.jpeg)
 
 Imagine you own a bakery and your confectioner intelligence team gathers competitor data. This project helps analyze unstructured information, providing insights into competitor offerings, advantages, and products mentioned, allowing you to prioritize business strategies.
 
