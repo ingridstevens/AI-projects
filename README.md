@@ -10,8 +10,5 @@ Enjoy!
 # Projects 
 ## Unstructured Data
 
-<div style="width: 200px;">
 
-![baked_goods](unstructured_data/img/clipboard.jpeg)
-
-</div>
+<img src="unstructured_data/img/clipboard.jpeg" alt="drawing" width="200"/>
