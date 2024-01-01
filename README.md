@@ -9,19 +9,27 @@ Enjoy!
 
 # Projects 
 ## Unstructured Data
-Here is an image of the data we will be working with:
+![baked_goods1](unstructured_data/img/clipboard.jpeg)
+
+
 <div style="display: flex; justify-content: space-between;">
 
   <div style="width: 200px;">
+
     ![baked_goods1](unstructured_data/img/clipboard.jpeg)
+  
   </div>
 
   <div style="width: 200px;">
-    ![baked_goods2](unstructured_data/img/clipboard2.jpeg)
+    
+    ![baked_goods2](unstructured_data/img/sweets.jpeg)
+
   </div>
 
   <div style="width: 200px;">
-    ![baked_goods3](unstructured_data/img/clipboard3.jpeg)
+
+    ![baked_goods3](unstructured_data/img/clipboard.jpeg)
+  
   </div>
 
 </div>
