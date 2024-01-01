@@ -43,15 +43,13 @@ OPENAI_API_KEY=your-api-key-here
 ```
 
 ### Alternatives to OpenAI
+
+Note: if you can find a way to use OpenAI, I would recommend it. It's the easiest way to get started with this project. Otherwise, you will need to find a local model that supports function calling, this is unfortunatelyn not an easy swap.
+
+.... 
+
 If you don't want to use OpenAI, you can use a different language model. You can use any language model that works with LangChain. You can find a list of models [here](https://python.langchain.com/docs/models).
 
-I would recommend using Ollama, which is available for Mac and Linux. You can find [instructions for installing Ollama](https://ollama.ai).
-
-When you've downloaded Ollama, you can install models via the command line. For example, to install mistral, run `ollama run mistral` (~4GB)
-
-In the code, change where it says `OpenAI()` to `Ollama(model='mistral')`.
-
-For more information on Ollama within Langchain, see [LangChain's Ollama LLM Documentation](https://python.langchain.com/docs/integrations/llms/ollama).
 
 ## Useage
 
