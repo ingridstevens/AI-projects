@@ -1,9 +1,9 @@
-# Unstructured Data Extraction 
-Use Case: Competitor Intelligence Data Extraction
+# Unstructured Data Extraction with LLMs
+Use Case: Competitor Intelligence Data Extraction using Large Language Models
 
 ## Overview
 
-This project demonstrates how to extract structured data from unstructured text, specifically focusing on competitor intelligence data in the bakery industry.
+This project demonstrates how to extract structured data from unstructured text using Large Language Models. For this demonstration, I'll be specifically focusing on competitor intelligence data in the bakery industry.
 
 ## Use Case
 
