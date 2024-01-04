@@ -13,5 +13,8 @@ Enjoy!
 <img src="unstructured_data/img/clipboard.jpeg" alt="drawing" width="500"/>
 
 The Confectionary Intelligence project provides a solution for businesses, particularly bakeries, to gather valuable competitor intelligence from unstructured text data. By leveraging large language models and structured data extraction techniques, the project helps businesses uncover insights and stay ahead in the competitive landscape.
+**This project covers**
+* Extracting structured data from unstructured text data
+* Analyzing unstructured text data with agents
 
 [Go to the Unstructured Data Analysis Project](/unstructured_data)
