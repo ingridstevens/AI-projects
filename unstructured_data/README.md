@@ -56,10 +56,10 @@ If you don't want to use OpenAI, you can use a different language model. You can
 ### Data: 
 I've provided a sample of competitive intelligence data in `data.csv`. The data was generated using ChatGPT and is not real data.
 It currently has 6 rows, and the columns are:
-* MONTH
-* INTEL
-* REPORTER
-* RESPONSIBLE
+* MONTH (the month the intelligence was gathered)
+* INTEL (the intelligence)
+* REPORTER (the person who gathered the intelligence)
+* RESPONSIBLE (the person responsible for acting on the intelligence)
 
 The INTEL column contains unstructured text, and the other columns are metadata.
 
@@ -76,9 +76,12 @@ Use LangChain's create_extraction_chain and a language model to create an extrac
 Alternatively, use the PydanticOutputParser class to create a parser based on the defined schema. (see each respective notebook for more details)
 
 ### Run the Chain:
-Apply the chain to examples or real data to get structured outputs.
+Apply the chain to examples or real data to get structured outputs. You can create a dataframe and export as .csv in order to run a LangChain CSV agent over the data.
 
-### Apply to Real Data:
+### Run the Agent over the Data
+Please run this [Notebook about creating the LangChain agent](unstructured_analyze_agent.ipynb) to further analyze the data.
+
+### Taking it Further: Apply this Process to Real Data:
 Load a CSV with competitive intelligence, pass it through the extraction chain, and add the parsed information back into the original data.
 
 ## Dependencies
