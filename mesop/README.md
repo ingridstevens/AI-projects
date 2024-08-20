@@ -52,6 +52,26 @@ mesop lmstudio_langchain_app.py
 
 ### Getting Started
 
+**Create and Activate a Conda Environment:**
+
+Create a new Conda environment named `mesop_env` with Python 3.12:
+
+```bash
+conda create -n mesop_env python=3.12
+```
+
+Activate the environment:
+
+```bash
+conda activate mesop_env
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
 **Clone the Repository:**
     
 ```bash
