@@ -50,7 +50,7 @@ Configured for local deployment with LM Studio.
 mesop lmstudio_langchain_app.py
 ```
 
-### Getting Started
+## Getting Started
 
 **Create and Activate a Conda Environment:**
 
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 ```
 
 
-### Run the Applications:
+## Run the Applications:
 
 To start any of the applications, use the following command with the respective script:
 
@@ -97,5 +97,5 @@ mesop ollama_langchain_app.py
 mesop lmstudio_langchain_app.py
 ```
 
-### Contributing
+## Contributing
 Feel free to open issues or submit pull requests if you have suggestions or improvements for these applications.
