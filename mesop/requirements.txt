@@ -1,0 +1,9 @@
+mesop
+openai
+google-generativeai
+ollama
+groq
+llama-index
+llama-index-llms-anthropic
+langchain-community
+python-dotenv
