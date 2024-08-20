@@ -6,6 +6,8 @@ This repository contains multiple chat applications built using the Google Mesop
 
 **Google Mesop** is a framework designed for building and deploying interactive web applications with integrated chat functionalities. It allows developers to create pages that can host chatbots or interactive agents, managing user interactions and providing a seamless experience.
 
+Find out more about [Google Mesop](https://google.github.io/mesop/)
+
 ## Applications Overview
 
 ### 1. `ollama_app.py`
