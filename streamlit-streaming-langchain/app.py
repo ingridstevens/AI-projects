@@ -15,19 +15,22 @@ st.set_page_config(page_title="LM Studio Streaming Chatbot", page_icon="🤖")
 st.title("LM Studio Streaming Chatbot")
 
 def get_response(user_query, chat_history):
-
     template = """
-    You are a helpful assistant. Use the chat history if it helps, otherwise ignore it:
+    You are a helpful assistant. Answer the following questions considering the history of the conversation:
 
     Chat history: {chat_history}
 
-    User response: {user_question}
+    User question: {user_question}
     """
 
     prompt = ChatPromptTemplate.from_template(template)
 
-    # Using LM Studio Local Inference Server
-    llm = ChatOpenAI(base_url="http://localhost:1234/v1")
+    # Modified line: Add model parameter matching your local model
+    llm = ChatOpenAI(
+        base_url="http://localhost:1234/v1",
+        api_key="not-needed",
+        model="llama-3.2-1b-instruct"  # Match your local model name
+    )
 
     chain = prompt | llm | StrOutputParser()
     
